@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Creative Minds - Design Agency Portfolio">
     <title>Creative Minds | Design Agency</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles1.css">
+    <script src="scripts.js" defer></script> <!-- Ensure the script is loaded after the DOM -->
 </head>
 
 <body>
@@ -26,16 +27,14 @@
     <section class="hero">
         <div class="hero-content">
             <h2>Welcome to Creative Minds</h2>
-            <p>Innovative designs that inspire creativity and bring ideas to life. Let’s collaborate and create something
-                amazing together!</p>
+            <p>Innovative designs that inspire creativity and bring ideas to life. Let’s collaborate and create something amazing together!</p>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>At Creative Minds, we specialize in modern, clean, and user-friendly designs. Our team of creative
-                professionals is passionate about delivering unique experiences that reflect your brand’s values and vision.</p>
+            <p>At Creative Minds, we specialize in modern, clean, and user-friendly designs. Our team of creative professionals is passionate about delivering unique experiences that reflect your brand’s values and vision.</p>
         </div>
     </section>
 
@@ -63,22 +62,22 @@
         <div class="container">
             <h2>Our Work</h2>
             <div class="portfolio">
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400x300" alt="Portfolio Item">
-                    <div class="portfolio-overlay">
-                        <p>Project Title 1</p>
+                <div class="portfolio-item" data-img="Project1.jpg">
+                    <img src="Project1.jpg" alt="Portfolio Item">
+                    <div class="portfolio-caption">
+                        <p>Web Design</p>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400x300" alt="Portfolio Item">
-                    <div class="portfolio-overlay">
-                        <p>Project Title 2</p>
+                <div class="portfolio-item" data-img="project2.jpg">
+                    <img src="project2.jpg" alt="Portfolio Item">
+                    <div class="portfolio-caption">
+                        <p>Graphic Design</p>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400x300" alt="Portfolio Item">
-                    <div class="portfolio-overlay">
-                        <p>Project Title 3</p>
+                <div class="portfolio-item" data-img="project3.jpg">
+                    <img src="project3.jpg" alt="Portfolio Item">
+                    <div class="portfolio-caption">
+                        <p>UI/UX Design</p>
                     </div>
                 </div>
                 <!-- Add more portfolio items as needed -->
